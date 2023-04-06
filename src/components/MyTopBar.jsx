@@ -20,7 +20,7 @@ const MyTopBar = (props) => {
               Movies
             </Link>
             <Link
-              className={`links ${location.pathname === "/prenotazioni" ? "blackB fw-bold" : ""}`}
+              className={`links ${location.pathname === "/recentlyadded" ? "blackB fw-bold" : ""}`}
               to="/recentlyadded"
             >
               Recently Added
