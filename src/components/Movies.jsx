@@ -1,10 +1,9 @@
 import React from "react";
-import "/App.css";
 
 function Movies() {
   return (
     <div>
-      <h1>Movies</h1>
+      <h1 className="white">Movies</h1>
     </div>
   );
 }

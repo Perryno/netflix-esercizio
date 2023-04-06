@@ -81,3 +81,16 @@
   display: flex;
   gap: 1rem;
 }
+
+.links {
+  text-decoration: none;
+  color: #b8b8b8;
+}
+
+.blackB {
+  color: black;
+}
+.links:hover {
+  text-decoration: none;
+  color: #333333;
+}

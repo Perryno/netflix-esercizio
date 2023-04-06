@@ -6,6 +6,10 @@ import MyTopBar from "./components/MyTopBar";
 import TvShows from "./components/TvShows";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import Movies from "./components/Movies";
+import RecentlyAdded from "./components/RecentlyAdded";
+import MyList from "./components/MyList";
+import NotFound from "./components/notFound";
 
 function App() {
   return (
@@ -15,8 +19,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tvshows" element={<TvShows />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/recentlyadded" element={<RecentlyAdded />} />
+          <Route path="/mylist" element={<MyList />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </BrowserRouter>
