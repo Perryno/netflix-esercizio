@@ -9,7 +9,7 @@ import Home from "./components/Home";
 import Movies from "./components/Movies";
 import RecentlyAdded from "./components/RecentlyAdded";
 import MyList from "./components/MyList";
-import NotFound from "./components/NotFound";
+import NotFound from "./components/notFound";
 import Details from "./components/Details";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <MyTopBar />
       <div className="app">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<TvShows />} />
           <Route path="/tvshows" element={<TvShows />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/recentlyadded" element={<RecentlyAdded />} />
